@@ -1,5 +1,5 @@
 void printVariables() {
-  // String değişkenler
+  // String variables
   String ilce = "Kadıköy";
   print("İlçe: $ilce");
 
@@ -69,7 +69,7 @@ void printVariables() {
   String video_yorumu = "Videoyu beğendim";
   print("Video Yorumu: $video_yorumu");
 
-  // int değişkenler
+  // int variables
   int satilan_miktar = 100;
   print("Satılan Miktar: $satilan_miktar");
 
@@ -93,7 +93,7 @@ void printVariables() {
 
 
 
-  // double değişkenler
+  // double variables
   double odeme_miktari = 1499.50;
   print("Ödeme Miktarı: $odeme_miktari");
 
@@ -110,9 +110,18 @@ void printVariables() {
   print("Müzik Süresi: $muzik_suresi dakika");
 
   double basinc = 1013.25;
-  print("Basınç: $basinc hPa");
+  print("Basınç: $basinc ");
 
-  // DateTime değişkenler
+  double odeme_saati = 14.30;
+  print("Ödeme Saati: $odeme_saati");
+
+  double eft_miktari = 250.75;
+  print("EFT Miktarı: $eft_miktari");
+
+  double kullanim_suresi = 60.2;
+  print("Kullanım Süresi: $kullanim_suresi dakika");
+
+  // DateTime variables
   DateTime dogum_tarihi = DateTime(1998, 6, 15);
   print("Doğum Tarihi: $dogum_tarihi");
 
@@ -131,17 +140,7 @@ void printVariables() {
   DateTime fatura_tarihi = DateTime(2024, 10, 1);
   print("Fatura Tarihi: $fatura_tarihi");
 
-  // double değişkenler
-  double odeme_saati = 14.30;
-  print("Ödeme Saati: $odeme_saati");
-
-  double eft_miktari = 250.75;
-  print("EFT Miktarı: $eft_miktari");
-
-  double kullanim_suresi = 60.2;
-  print("Kullanım Süresi: $kullanim_suresi dakika");
-
-  // bool değişkenler
+  // bool variables
   bool medeni_hal = true; // true = evli, false = bekar
   print("Medeni Hâl: ${medeni_hal ? 'Evli' : 'Bekar'}");
 
